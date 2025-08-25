@@ -58,27 +58,10 @@ const services = [
   },
 ];
 
-<div className="min-h-screen w-full bg-[#020617] relative">
-  {/* Dark Sphere Grid Background */}
-  <div
-    className="absolute inset-0 z-0"
-    style={{
-      background: "#020617",
-      backgroundImage: `
-        linear-gradient(to right, rgba(71,85,105,0.3) 1px, transparent 1px),
-        linear-gradient(to bottom, rgba(71,85,105,0.3) 1px, transparent 1px),
-        radial-gradient(circle at 50% 50%, rgba(139,92,246,0.15) 0%, transparent 70%)
-      `,
-      backgroundSize: "32px 32px, 32px 32px, 100% 100%",
-    }}
-  />
-  {/* Your Content/Components */}
-</div>;
-
 export default function Home() {
   return (
     <div
-      className="min-h-screen w-full bg-[#0f0f0f] relative text-white inset-0 z-0 pointer-events-none"
+      className="min-h-screen w-full bg-[#0f0f0f] relative text-white inset-0 z-0 "
       style={{
         background: "#020617",
         backgroundImage: `
@@ -195,7 +178,7 @@ export default function Home() {
             px-10
             md:px-16
       md:text-xl
-      hover:bg-[#abcbff] 
+      hover:bg-blue-600
       rounded-[6px]
       border-2 
       border-black 
@@ -212,6 +195,7 @@ export default function Home() {
               href={"/showcase"}
               className="
               bg-white
+              text-black
    py-3 
    px-10
    md:px-16
@@ -261,7 +245,7 @@ export default function Home() {
               <div className="flex my-6 gap-x-5 w-full">
                 <div>
                   <h1 className="text-blue-500 text-3xl md:text-5xl">
-                    <NumberTicker value={100} /> +
+                    <NumberTicker value={100} className="text-white" /> +
                     <p className="text-gray-500 text-sm md:text-md">
                       Happy Clients
                     </p>
@@ -272,7 +256,7 @@ export default function Home() {
 
                 <div className="flex-1 min-w-0">
                   <h1 className="text-blue-500 text-3xl md:text-5xl whitespace-nowrap overflow-hidden">
-                    <NumberTicker value={50} /> +
+                    <NumberTicker value={50} className="text-white" /> +
                     <p className="text-gray-500 text-sm md:text-md">
                       Projects Completed
                     </p>
@@ -323,8 +307,10 @@ export default function Home() {
                   className="object-contain bg-gray-100 p-4 w-full h-40 rounded-md"
                   alt="image"
                 />
-                <h1 className="text-xl font-medium">{service.title}</h1>
-                <p className="text-gray-500">{service.description}</p>
+                <h1 className="text-xl font-medium text-black">
+                  {service.title}
+                </h1>
+                <p className="text-gray-700">{service.description}</p>
               </div>
             ))}
           </div>
