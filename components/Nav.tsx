@@ -9,9 +9,9 @@ const Nav = () => {
   return (
     <Element
       name="top"
-      className="overflow-hidden md:rounded-[6px] md:top-5 sticky w-full md:mx-auto z-50 
+      className="md:rounded-[6px] md:top-5 top-0 sticky w-full md:mx-auto z-50 
    xl:w-4/5 2xl:w-[68%] bg-[#01071B] flex items-center 
-   justify-between py-5 md:py-6 px-4 md:px-8 "
+   justify-between py-5 md:py-6 px-4 md:px-8"
     >
       <Link href={"/"}>
         <Image
@@ -19,7 +19,7 @@ const Nav = () => {
           alt="Logo"
           width={1000}
           height={1000}
-          className="w-32 md:w-40 "
+          className="w-32 md:w-40"
         />
       </Link>
 
