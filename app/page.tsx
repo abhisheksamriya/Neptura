@@ -61,7 +61,7 @@ const services = [
 export default function Home() {
   return (
     <div
-      className="min-h-screen w-screen bg-[#0f0f0f] relative text-white inset-0 z-0 overflow-hidden "
+      className="min-h-screen min-w-screen bg-[#0f0f0f] relative text-white inset-0 z-0 overflow-hidden "
       style={{
         background: "#020617",
         backgroundImage: `
