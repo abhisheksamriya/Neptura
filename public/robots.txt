@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.neptura.online/
+Host: https://www.neptura.online
 
 # Sitemaps
 Sitemap: https://www.neptura.online/sitemap.xml
