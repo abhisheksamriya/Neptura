@@ -8,13 +8,24 @@ import StickyButtons from "@/components/StickyButtons";
 const font = Space_Grotesk({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Neptura | Marketing & Development Studio",
+  title: "Neptura | Jaipur's Best Web Design & Digital Marketing Agency",
   description:
-    "Grow your business with Neptura, a marketing & development studio. We help brands with website development, digital marketing, and growth strategies.",
-  icons: {
-    icon: "/logo/neptura.png",
-  },
+    "Neptura is a top-rated web design and digital marketing agency in Jaipur, Rajasthan. We specialize in website development, SEO, branding, and result-driven marketing services to help your business grow.",
   keywords: [
+    "digital marketing agency",
+    "web design agency",
+    "Jaipur best web design agency",
+    "web design Jaipur",
+    "digital marketing Jaipur",
+    "digital marketing Rajasthan",
+    "website development Jaipur",
+    "branding agency Jaipur",
+    "SEO services Jaipur",
+    "marketing agency Rajasthan",
+    "social media marketing Jaipur",
+    "UI UX design Jaipur",
+    "eCommerce website development Jaipur",
+    "PPC services Jaipur",
     "Neptura",
     "marketing studio",
     "development studio",
@@ -23,10 +34,13 @@ export const metadata: Metadata = {
     "SEO services",
     "India web development",
   ],
+  icons: {
+    icon: "/favicon.ico",
+  },
   openGraph: {
-    title: "Neptura | Marketing & Development Studio",
+    title: "Neptura | Jaipur's Best Web Design & Digital Marketing Agency",
     description:
-      "Grow your business with Neptura through modern website development and result-driven digital marketing services.",
+      "Grow your brand with Neptura – Jaipur's leading web design and digital marketing agency. We deliver custom websites, SEO, branding, and marketing solutions across Rajasthan and beyond.",
     url: "https://neptura.online",
     siteName: "Neptura",
     images: [
@@ -34,7 +48,7 @@ export const metadata: Metadata = {
         url: "https://neptura.online/logo/fullogo.png",
         width: 1200,
         height: 630,
-        alt: "Neptura Marketing & Development Studio",
+        alt: "Neptura Digital Marketing & Web Design Agency",
       },
     ],
     locale: "en_US",
@@ -53,7 +67,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/logo/neptura.png" sizes="any" />
+        {/* ✅ Favicon */}
+        <link rel="icon" href="/favicon.ico" sizes="any" />
         <link
           rel="icon"
           type="image/png"
@@ -66,6 +81,7 @@ export default function RootLayout({
           sizes="16x16"
           href="/logo/nepturablack.png"
         />
+
         {/* ✅ Google Ads Global Site Tag */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-17521168219"
