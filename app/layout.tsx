@@ -3,6 +3,7 @@ import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 import Script from "next/script";
+import StickyButtons from "@/components/StickyButtons";
 
 const font = Space_Grotesk({ subsets: ["latin"] });
 
@@ -10,6 +11,9 @@ export const metadata: Metadata = {
   title: "Neptura | Marketing & Development Studio",
   description:
     "Grow your business with Neptura, a marketing & development studio. We help brands with website development, digital marketing, and growth strategies.",
+  icons: {
+    icon: "/logo/neptura.png",
+  },
   keywords: [
     "Neptura",
     "marketing studio",
@@ -49,18 +53,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/logo/neptura.png" sizes="any" />
         <link
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href="/images/logo/neptura.png"
+          href="/logo/neptura.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href="/images/logo/nepturablack.png"
+          href="/logo/nepturablack.png"
         />
         {/* ✅ Google Ads Global Site Tag */}
         <Script
@@ -79,6 +83,7 @@ export default function RootLayout({
       <body className={font.className}>
         {children}
         <Analytics />
+        <StickyButtons />
       </body>
     </html>
   );
