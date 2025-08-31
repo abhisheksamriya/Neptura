@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     siteName: "Neptura",
     images: [
       {
-        url: "https://neptura.online/logo/logo.png",
+        url: "https://neptura.online/logo/fullogo.png",
         width: 1200,
         height: 630,
         alt: "Neptura Marketing & Development Studio",
@@ -49,6 +49,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* ✅ Favicon */}
+        <link rel="icon" href="/images/logo/neptura.png" sizes="any" />
         {/* ✅ Google Ads Global Site Tag */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-17521168219"
