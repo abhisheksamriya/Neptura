@@ -8,7 +8,7 @@ function LetsMakeThingsHappenSection() {
     <section
       className="
      my-10 md:py-20  md:mx-auto
-    bg-accent rounded-[45px] p-[50px] md:p-[60px] relative"
+    bg-accent sm:rounded-[45px] p-[50px] md:p-[60px] relative"
     >
       <div className="md:pr-[22rem]">
         <p className="text-3xl font-medium text-black">
