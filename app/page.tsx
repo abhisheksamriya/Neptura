@@ -98,7 +98,7 @@ export default function Home() {
                    "
           >
             <Link
-              href="/meeting"
+              href="https://wa.me/919394060136"
               className="py-3 
             px-10
             md:px-16
