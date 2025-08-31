@@ -301,11 +301,10 @@ export default function Home() {
             alt="image"
           />
           <div className="flex flex-col gap-y-5 md:w-1/2">
-            <h1 className="text-lg md:text-2xl ">
-              &quot;We&apos;ve been working with Bird for over 2 years and
-              they&apos;ve been amazing to work with. They&apos;ve helped us
-              grow our business and we couldn&apos;t be happier with the
-              results. &quot;
+            <h1 className="text-lg md:text-2xl">
+              "At Neptura, we strive to deliver the best results for our
+              clients. Seeing their businesses grow and succeed through our work
+              has been incredibly rewarding."
             </h1>
             <div className="flex items-center gap-x-1">
               <IconStarFilled className="text-4xl text-yellow-500" />
@@ -317,7 +316,7 @@ export default function Home() {
 
             <span className="text-xl font-medium">
               Abhishek Samriya <br />
-              CEO, Atlas Massage{" "}
+              CEO, Neptura
             </span>
           </div>
         </main>
