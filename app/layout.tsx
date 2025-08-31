@@ -49,8 +49,19 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* ✅ Favicon */}
-        <link rel="icon" href="/images/logo/neptura.png" sizes="any" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/images/logo/neptura.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/images/logo/nepturablack.png"
+        />
         {/* ✅ Google Ads Global Site Tag */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-17521168219"
