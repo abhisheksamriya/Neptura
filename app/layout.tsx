@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
+import Script from "next/script";
 
 const font = Space_Grotesk({ subsets: ["latin"] });
 
@@ -26,7 +27,7 @@ export const metadata: Metadata = {
     siteName: "Neptura",
     images: [
       {
-        url: "https://neptura.online/og-image.png", // banner image lagana zaruri hai
+        url: "https://neptura.online/logo/logo.png",
         width: 1200,
         height: 630,
         alt: "Neptura Marketing & Development Studio",
@@ -47,6 +48,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* ✅ Google Ads Global Site Tag */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-17521168219"
+          strategy="afterInteractive"
+        />
+        <Script id="google-ads-tag" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-17521168219');
+          `}
+        </Script>
+      </head>
       <body className={font.className}>
         {children}
         <Analytics />

@@ -15,9 +15,7 @@ const Footer = () => {
           />{" "}
         </h1>
         <p className="text-left  text-xl  text-gray-500">+91 9394060136</p>
-        <p className="text-left  text-xl  text-gray-500">
-          admin@birdsoftware.ca
-        </p>
+        <p className="text-left  text-xl  text-gray-500">neptura@gmail.com</p>
       </div>
 
       <div className="flex md:justify-center gap-x-4 mt-10">
