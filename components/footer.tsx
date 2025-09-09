@@ -25,7 +25,10 @@ const Footer = () => {
 
       <div className="flex md:justify-center gap-x-4 mt-10">
         © 2025 Neptura. All Rights Reserved.
-        <Link href="/" className="text-blue-500">
+        <Link
+          href="https://drive.google.com/file/d/1ZaqaQeo4Z_QRIxN1zk2mZfiPnTlJXj0W/view?usp=sharing"
+          className="text-blue-500"
+        >
           Privacy Policy
         </Link>
       </div>
