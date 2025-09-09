@@ -11,15 +11,15 @@ const works = [
   },
   {
     background: "bg-gray-950",
-    imageUrl: "/images/work.png",
-    title: "Discover Resort",
-    link: "https://discover-resort.vercel.app/",
+    imageUrl: "/images/nepturahome.png",
+    title: "Neptura Digital Marketing",
+    link: "https://www.neptura.online/",
   },
   {
     background: "bg-gray-950",
-    imageUrl: "/images/work.png",
-    title: "Discover Resort",
-    link: "https://discover-resort.vercel.app/",
+    imageUrl: "/images/birla.png",
+    title: "Birla Dharamshala",
+    link: "https://www.birladhramshalaayodhya.in/",
   },
   {
     background: "bg-gray-950",
