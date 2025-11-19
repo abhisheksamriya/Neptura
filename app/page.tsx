@@ -315,7 +315,7 @@ export default function Home() {
             </div>
 
             <span className="text-xl font-medium">
-              Abhishek Samriya <br />
+              Dheeraj <br />
               CEO, Neptura{" "}
             </span>
           </div>
